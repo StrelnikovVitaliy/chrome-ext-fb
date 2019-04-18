@@ -18,4 +18,4 @@ To just build the files without the development server:
 yarn build
 ```
 
-Add extension to the Chrome `chrome://extensions/` in `dev mode`
+Add extension to the Chrome `chrome://extensions/` in `dev mode` from project folder `/dist`
