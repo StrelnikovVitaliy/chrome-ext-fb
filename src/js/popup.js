@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 '    } \n' +
                 '\n' +
                 '})(console);' +
-                'links = Array.prototype.slice.call(document.querySelectorAll(\'div.ellipsis a\')).map(item => item.getAttribute(\'href\'));\n' +
+                'links = Array.prototype.slice.call(document.querySelectorAll(\'div.uiProfileBlockContent div._6a div.fsl a\')).map(item => item.getAttribute(\'href\'));\n' +
                 'console.saveToZapier(links);'
         });
 
